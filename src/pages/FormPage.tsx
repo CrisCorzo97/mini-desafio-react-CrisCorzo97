@@ -27,7 +27,7 @@ const FormPage = () => {
   return (
     <div className="row pt-4">
       <div className="col-md-4 offset-md-4">
-        <form onSubmit={handleSubmit} className="card card-body">
+        <form onSubmit={handleSubmit} className="card card-body bg-light">
           <div className="mb-3">
             <label className="form-label">Nombre</label>
             <input
